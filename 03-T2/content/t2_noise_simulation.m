@@ -3,6 +3,8 @@
 % Define model
 Model = mono_t2;
 
+params.TE = linspace(0, 300, 100); % Echo times (in ms)
+
 % Define signal parameters for different tissues
 x = struct;
 x.M0 = 1000;
