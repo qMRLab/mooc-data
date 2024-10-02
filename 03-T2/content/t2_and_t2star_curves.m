@@ -33,4 +33,4 @@ title('T2 and T2* Decay Signals');
 %% Export
 
 TE = squeeze(params.TE)
-save("t2_and_t2star_curvs.mat", "signal_WM_T2", "signal_GM_T2", "signal_WM_T2star", "signal_GM_T2star", "params", "EchoTimes")
+save("t2_and_t2star_curvs.mat", "signal_WM_T2", "signal_GM_T2", "signal_WM_T2star", "signal_GM_T2star", "params")
