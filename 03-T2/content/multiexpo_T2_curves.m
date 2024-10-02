@@ -1,3 +1,6 @@
+close all
+clear all
+
 Model = mwf
 
 % Define initial MWF and T2 times of myelin water and intra- and extracellular water
@@ -30,4 +33,4 @@ signal_multi_MWF = (FitResult.MWF/100)*signal_mono_MW + (1 - FitResult.MWF/100)*
 %% Export
 
 TE = squeeze(params.TE)
-save("multiexpo_T2_curves.mat", "signal_mono_MW", "signal_mono_IEW", "TE", "FitResult", "params", "x", "Opt")
+save("multiexpo_T2_curves.mat", "signal_mono_MW", "signal_mono_IEW", "signal_multi_MWF", "TE", "FitResult", "params", "x", "Opt")

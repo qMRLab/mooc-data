@@ -1,5 +1,9 @@
 %% T2 and T2* decay curves
 
+close all
+clear all
+clc
+
 % Define model
 Model = mono_t2;
 
@@ -46,4 +50,4 @@ SEdata_SNR130 = data_SNR130.SEdata/1000;
 disp(EchoTimes)
 disp(params.TE)
 
-save("t2_noise_simulation.mat", "signal_SNR10", "signal_SNR50", "signal_SNR90", "signal_SNR130", "T2_SNR10", "T2_SNR50", "T2_SNR90", "T2_SNR130", "SEdata_SNR10", "SEdata_SNR50", "SEdata_SNR90", "SEdata_SNR130", "EchoTimes", "params")
+save("t2_noise_simulation.mat", "params", "signal_SNR10", "signal_SNR50", "signal_SNR90", "signal_SNR130", "T2_SNR10", "T2_SNR50", "T2_SNR90", "T2_SNR130", "SEdata_SNR10", "SEdata_SNR50", "SEdata_SNR90", "SEdata_SNR130", "EchoTimes")
