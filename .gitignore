@@ -1,0 +1,5 @@
+qMRLab/
+data/
+*.mat
+.DS_Store
+.asv

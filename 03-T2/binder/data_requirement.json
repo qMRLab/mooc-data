@@ -1,0 +1,12 @@
+{
+    "mono_t2": { 
+        "src": "https://osf.io/download/kujp3/",
+        "dst": "../data",
+        "projectName": "mono_t2"
+    },
+    "mwf": { 
+        "src": "https://osf.io/download/bes6f/",
+        "dst": "../data",
+        "projectName": "mwf"
+    }
+}

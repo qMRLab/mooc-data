@@ -1,0 +1,17 @@
+#!/bin/bash
+
+git clone https://www.github.com/qMRLab/qMRLab.git ../qMRLab
+cd ../qMRLab
+git checkout mooc-03-T2
+cd binder
+
+git clone https://github.com/SIMEXP/Repo2Data.git ../Repo2Data
+cd ../Repo2Data
+pip install "cython<3"
+pip install "pyyaml==5.4.1" --no-build-isolation
+pip install -r requirements.txt
+pip install -e .
+cd ../binder
+
+repo2data -r data_requirements.json
+
