@@ -1,0 +1,50 @@
+.beforeAfter {
+    border-radius: 5px;
+    /* border: 2px solid silver; */
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.after {
+    height:100%;
+    width:100%;
+    z-index: 1;
+    position: absolute;
+ }
+
+.before {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    border-right: 4px solid silver;
+    z-index: 40;
+    position: absolute;
+}
+
+.middle {
+    top: 45%;
+    left: 48%;
+    z-index: 50;
+    draggable: true;
+    position: absolute;
+}
+
+.middle:before {
+    content: '\f1de';
+    font-family: "Font Awesome 6 Free";
+    font-size: 30pt;
+    font-weight: 900;
+    background-color: silver;
+    border: 1pt solid black;
+    cursor: grab;
+    border-radius: 5pt;
+}
+
+.middle:hover:before {
+    filter: brightness(1.15)
+}
+
+.middle:active:before {
+    cursor: grabbing;
+}
