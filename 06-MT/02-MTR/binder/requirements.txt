@@ -1,0 +1,7 @@
+jupyter-book==0.13.0
+lxml_html_clean
+nibabel
+pandas
+plotly
+scipy
+tabulate
