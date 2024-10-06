@@ -1,0 +1,7 @@
+
+#!/bin/bash
+
+git clone https://www.github.com/qMRLab/qMRLab.git ../qMRLab
+cd ../qMRLab
+git checkout 5c64c747a7c08102201bb1404c868d6caf51d08d
+cd binder
