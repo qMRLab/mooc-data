@@ -3,5 +3,5 @@
 
 git clone https://www.github.com/qMRLab/qMRLab.git ../qMRLab
 cd ../qMRLab
-git checkout 5c64c747a7c08102201bb1404c868d6caf51d08d
+git checkout be314a4b44ca655e409a151bd8ee69a27a0d1ce0 
 cd binder
