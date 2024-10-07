@@ -3,3 +3,4 @@ data/
 *.mat
 .DS_Store
 .asv
+*.pkl
