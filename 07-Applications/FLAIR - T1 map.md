@@ -1,0 +1,1 @@
+Source of file is from the ISMRM RRSG T1 mapping challenge: https://osf.io/asj3r
