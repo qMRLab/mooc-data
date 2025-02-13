@@ -1,0 +1,1 @@
+Manually segmented mask to generate lesions for FLAIR - T1 map.md
